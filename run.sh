@@ -14,7 +14,7 @@ function usage()
 	echo -e "\t-p platform  choose a platform type [arm/arm64]"
 	echo -e "\t-d         start using gdb option"
 	echo -e "\t-s         shutdown ARM64 qemu process"
-	echo -e "\t-h         show this tips"
+	echo -e "\t-h         show these tips"
 	echo "Example:"
 	echo "	./run.sh -t"
 	echo "	./build.sh -m kernel"
