@@ -112,8 +112,8 @@ MiniOS kernel support list: linux-4.0/linux-4.9.
 
 MiniOS busybox support list: busybox-1.24.0/busybox-1.30.0.
 
-If you want to build the specific versions of kernel or busybox, just export env variables
-to change kernel and busybox version to build, such as:
+If you want to build specific versions of the kernel or busybox, just export the env variables
+to change the kernel and busybox versions to build, such as:
 
 ```
 export BUSYBOX=busybox-1.30.0
