@@ -1,6 +1,6 @@
 # Description
 
-MiniOS is a develop environment for linux kernel and applications using QEMU virtual machine. Developers can easily clone it and develop based on it. You can make your idea to an product very quickly using MiniOS environment. It is a good choice to verify your solutions on MiniOS before production.
+MiniOS is a development environment for the linux kernel and applications using the QEMU virtual machine. Developers can easily clone it and develop based on it. You can turn your idea into a product very quickly using the MiniOS development environment. It is a good choice to verify your solutions on MiniOS before production.
 
 # Install Environment
 
@@ -41,7 +41,7 @@ To build MiniOS modules [platform:arm64]:
 ./build.sh -m {MODDULE}
 ```
 
-the module has these values to choose: kernel, rootfs, busybox, libc, initramfs.
+The module has these values to choose: kernel, rootfs, busybox, libc, initramfs.
 BTW, the rootfs module will include "libc", "initramfs" and "busybox" build.
 
 eg:
@@ -64,7 +64,7 @@ To build MiniOS modules [platform:arm]:
 ./build.sh -m {MODDULE} -p arm
 ```
 
-the module has these values to choose: kernel, rootfs, busybox, libc, initramfs.
+The module has these values to choose: kernel, rootfs, busybox, libc, initramfs.
 BTW, the rootfs module will include "libc", "initramfs" and "busybox" build.
 
 eg:
@@ -97,7 +97,7 @@ you should add option to tell run.sh script:
 ```
 sudo ./run.sh -s -p arm
 ```
-There is another important feature of minios, it support NFS as rootfs to boot linux kernel.
+There is another important feature of minios, it supports NFS as rootfs to boot linux kernel.
 Using this feature, we can easily debug our applications without rebuilding the whole system:
 ```
 sudo ./run.sh -t nfs -p arm
