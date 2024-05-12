@@ -2,12 +2,12 @@
 
 MiniOS is a development environment for the linux kernel and applications using the QEMU virtual machine. Developers can easily clone it and develop based on it. You can turn your idea into a product very quickly using the MiniOS development environment. It is a good choice to verify your solutions on MiniOS before production.
 
-# Install Environment
+# Install the environment
 
 ```
 sudo ./install.sh
 ```
-It will install compile toolchains of arm and arm64, and qemu environment.
+It will install compile toolchains of arm and arm64, and the qemu environment.
 
 # Build MiniOS
 
@@ -25,7 +25,7 @@ Options:
  -h: help informations.
 ```
 
-# Build Samples
+# Build samples
 
  - Default platform arm64:
 
@@ -106,7 +106,7 @@ or
 ```
 sudo ./run.sh -t nfs
 ```
-# Advance Info
+# Advanced info
 
 MiniOS kernel support list: linux-4.0/linux-4.9.
 
